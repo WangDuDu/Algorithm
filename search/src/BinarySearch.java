@@ -1,5 +1,3 @@
-import java.util.Random;
-
 /**
  * Created by wangshuyang on 2017/4/6.
  */
@@ -23,8 +21,8 @@ public class BinarySearch {
             }
         }
 
-        if (array[left] == val) {
-            return left;
+        if (array[right] == val) {
+            return right;
         } else {
             return 0;
         }
@@ -45,7 +43,8 @@ public class BinarySearch {
             inArray[i] = i+1;
         }
         print(inArray,10);
-        int a = binary(inArray,9,0,9);
+//        int a = binary(inArray,9,0,9);
+        int a = 2;
         System.out.println(a);
     }
 }
